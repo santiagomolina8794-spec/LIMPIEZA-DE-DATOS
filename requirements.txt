@@ -4,4 +4,4 @@ openpyxl
 pygwalker
 sweetviz
 streamlit-pandas-profiling
-ydata-profiling
+ydata-profiling==4.18.4
