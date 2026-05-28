@@ -1,0 +1,7 @@
+streamlit
+pandas
+openpyxl
+pygwalker
+sweetviz
+streamlit-pandas-profiling
+ydata-profiling
