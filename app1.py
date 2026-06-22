@@ -12,7 +12,7 @@ archivo = st.file_uploader(
 if archivo is not None:
 
     if archivo.name.endswith(".csv"):
-        df = pd.read_csv(archivo)
+        df = pd.read_csv(archivo, sep=';')
 
     else:
         df = pd.read_excel(archivo)
@@ -35,3 +35,4 @@ if archivo is not None:
         height=1000,
         scrolling=True
     )
+    

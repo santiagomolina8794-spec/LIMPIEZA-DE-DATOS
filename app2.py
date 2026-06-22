@@ -95,6 +95,10 @@ if archivo is not None:
         )
 
         st_profile_report(profile)
+        
+        # Guardar como HTML
+        profile.to_file("reporte_perfil.html")
+        st.success("✅ Reporte guardado como reporte_perfil.html")
 
     except Exception as e:
 
