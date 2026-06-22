@@ -1,0 +1,9 @@
+# Ignorar el entorno virtual completo
+venv/
+.venv/
+env/
+
+# Archivos temporales de Python y Streamlit
+__pycache__/
+*.pyc
+.streamlit/config.toml
